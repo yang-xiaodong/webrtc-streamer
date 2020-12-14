@@ -199,7 +199,6 @@ int main(int argc, char* argv[])
 		options.push_back("enable_directory_listing");
 		options.push_back("no");
 		options.push_back("additional_header");
-		options.push_back("X-Frame-Options: SAMEORIGIN");
 		options.push_back("access_control_allow_origin");
 		options.push_back("*");
 		options.push_back("listening_ports");
